@@ -1,8 +1,14 @@
-import React from 'react'
-import Counter from './components/Counter/Counter'
+import React from "react";
+import Counter from "./components/Counter/Counter";
+import Todo from "./components/Todo/Todo";
 
 function App() {
-  return <Counter/>
+  return (
+    <>
+      <Counter />
+      <Todo />
+    </>
+  );
 }
 
-export default App
+export default App;
