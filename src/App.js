@@ -1,12 +1,13 @@
 import React from "react";
-import Counter from "./components/Counter/Counter";
-import Todo from "./components/Todo/Todo";
+import Grid from "./components/Grid/Grid";
+import GridArea from "./components/Grid/GridArea";
 
 function App() {
   return (
     <>
-      <Counter />
-      <Todo />
+      <Grid />
+      <hr/>
+      <GridArea />
     </>
   );
 }

@@ -20,6 +20,7 @@ function Counter({ counter, increment, incrementAmount, decrement, reset }) {
     </>
   );
 }
+
 const mapStateToProps = (state) => {
   return state.counter;
 };
